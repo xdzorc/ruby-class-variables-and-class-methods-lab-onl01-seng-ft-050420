@@ -14,8 +14,9 @@ class Song
     if !(@@genre.include?(genre))
       @@genre << genre
     end
-    if !(@@genre.include?(genre))
-      @@genre << genre
+    
+    if !(@@artists.include?(artist))
+      @@artists << artist
     end
   
     @@count +=1
